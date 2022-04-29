@@ -7,6 +7,7 @@ Vue 3 + TypeScript 프로젝트 템플릿
 - Vite
 - Vue Router
 - Vuex
+- Axios
 
 본 템플릿에서 사용하는 Vue 3 `<script setup>` SFC에 대해선 [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) 참조.
 

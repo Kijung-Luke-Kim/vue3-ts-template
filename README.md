@@ -76,6 +76,10 @@ Vue 3 + TypeScript 프로젝트 템플릿
   - test
     - 소스에 대한 테스트 코드가 위치한 폴더입니다. 기본적으로 src와 동일한 경로에 단위테스트를 작성합니다.
 
+## 테스트 코드 참고
+
+- https://github.com/vitest-dev/vitest/tree/main/examples/vue/test
+
 ## Vite 템플릿 관련 공식 README
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.

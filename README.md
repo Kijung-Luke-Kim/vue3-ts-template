@@ -37,6 +37,21 @@ Vue 3 + TypeScript 프로젝트 템플릿
     - Command Palette 진입 (Mac: Cmd + Shift + P, Windows: Ctrl + Shift + P) -> `Extensions: Show Built-in Extensions` 실행 -> `TypeScript and JavaScript Language Features` 검색 후 `Disable (Workspace)` 클릭
     - Command Palette에서 `Developer: Reload Window` 실행하여 IDE 리로드
 
+  ## 사용방법
+
+- git clone
+- 프로젝트 의존 패키지 설치
+  - npm install
+- 프로젝트 로컬 환경 실행
+  - npm run dev
+- 프로젝트 빌드
+  - npm run build
+- 테스트 실행
+  - npm run test
+- 테스트 커버리지 확인
+
+  - npm run coverage
+
   ## 폴더 구조
 
   - src

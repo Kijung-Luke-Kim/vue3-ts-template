@@ -7,6 +7,7 @@ Vue 3 + TypeScript 프로젝트 템플릿
 - Vite
 - Vue Router
 - Vuex
+- Vitest
 - Axios
 
 본 템플릿에서 사용하는 Vue 3 `<script setup>` SFC에 대해선 [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) 참조.
@@ -23,12 +24,37 @@ Vue 3 + TypeScript 프로젝트 템플릿
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 - VS Code 설정
+
   - 코드 포맷팅
     - Format on save 활성화
     - Editor: Default Formatter은 Prettier로 설정
   - TypeScript 설정
     - Command Palette 진입 (Mac: Cmd + Shift + P, Windows: Ctrl + Shift + P) -> `Extensions: Show Built-in Extensions` 실행 -> `TypeScript and JavaScript Language Features` 검색 후 `Disable (Workspace)` 클릭
     - Command Palette에서 `Developer: Reload Window` 실행하여 IDE 리로드
+
+  ## 폴더 구조
+
+  - src
+    - api
+      - AJAX 호출에 쓰이는 API들을 모아두는 폴더입니다.
+    - assets
+      - 정적 파일들을 모아두는 폴더입니다.
+      - css
+      - icons
+      - images
+    - components
+      - 상위 View에서 쓰이는 재사용 가능한 vue 컴포넌트들을 모아두는 폴더입니다.
+    - mixins
+    - router
+      - 라우터 경로 및 파일이 위치한 폴더입니다.
+    - store
+      - Vuex 스토어 파일이 위치한 폴더입니다.
+    - util
+      - 각종 유틸 기능들을 모아두는 폴더입니다.
+    - views
+      - 라우터에 매핑되는 최상위 화면, 즉 재사용이 불가한 vue 파일들을 모아두는 폴더입니다.
+  - test
+    - 소스에 대한 테스트 코드가 위치한 폴더입니다. 기본적으로 src와 동일한 경로에 단위테스트를 작성합니다.
 
 ## Vite 템플릿 관련 공식 README
 

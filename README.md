@@ -7,8 +7,12 @@ Vue 3 + TypeScript 프로젝트 템플릿
 - Vite
 - Vue Router
 - Vuex
-- Vitest
 - Axios
+
+- 테스트
+  - Vitest
+  - @vue/test-utils
+  - jsdom
 
 본 템플릿에서 사용하는 Vue 3 `<script setup>` SFC에 대해선 [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) 참조.
 
@@ -22,6 +26,7 @@ Vue 3 + TypeScript 프로젝트 템플릿
   - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - [Vitest](https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer)
 
 - VS Code 설정
 

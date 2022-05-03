@@ -13,6 +13,14 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/components/HelloWorld.spec.tsc.tsc.ts",
+    "test/utils/index.spec.tsc.ts",
+    "test/components/HelloWorld.spec.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

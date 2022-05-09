@@ -10,6 +10,8 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "@sentry/tracing": "^6.19.7",
+    "@sentry/vue": "^6.19.7",
     "axios": "^0.27.2",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14",

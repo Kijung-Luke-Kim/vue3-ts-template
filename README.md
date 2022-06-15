@@ -5,7 +5,8 @@ Vue 3 + TypeScript 프로젝트 템플릿
 - Vue 3
 - TypeScript
 - Vite
-  - plugin-legacy 추가
+  - legacy (ie >= 11) 지원
+  - jsx 지원
 - Vue Router
 - Vuex
 - Axios

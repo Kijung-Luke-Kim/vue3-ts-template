@@ -1,13 +1,6 @@
-<script setup lang="ts">
-import { useStore } from "../store";
-
-defineProps<{ msg: string }>();
-
-const store = useStore();
-</script>
-
 <template>
   <h1>{{ msg }}</h1>
+  <SampleJsxVue></SampleJsxVue>
 
   <p>
     Recommended IDE setup:
@@ -34,6 +27,15 @@ const store = useStore();
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
 </template>
+
+<script setup lang="tsx">
+import { useStore } from "../store";
+import SampleJsxVue from "./SampleJsx.vue";
+
+defineProps<{ msg: string }>();
+
+const store = useStore();
+</script>
 
 <style scoped>
 a {

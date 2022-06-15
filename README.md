@@ -5,6 +5,7 @@ Vue 3 + TypeScript 프로젝트 템플릿
 - Vue 3
 - TypeScript
 - Vite
+  - plugin-legacy 추가
 - Vue Router
 - Vuex
 - Axios
@@ -23,7 +24,8 @@ Vue 3 + TypeScript 프로젝트 템플릿
 - [VS Code](https://code.visualstudio.com/)
 
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-  - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+    - [Volar TypeScript](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
+  - [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [Vitest](https://marketplace.visualstudio.com/items?itemName=ZixuanChen.vitest-explorer)
